@@ -36,6 +36,7 @@ public class playerdeath : MonoBehaviour
     {
         anim.SetTrigger("Death");
         rg.bodyType = RigidbodyType2D.Static;
+        RestartLevel();
         
     }
     private void RestartLevel()

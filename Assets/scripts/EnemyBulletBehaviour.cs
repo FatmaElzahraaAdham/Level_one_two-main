@@ -14,6 +14,7 @@ public class EnemyBulletBehaviour : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         Vector3 direction = player.transform.position - transform.position;
         rb.AddForce(Vector2.left * bulletSpeed);
+        //rb.velocity=new Vector2(direction.x,direction.y);
     }
 
     // Update is called once per frame

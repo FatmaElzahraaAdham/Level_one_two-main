@@ -20,9 +20,10 @@ public class EnemyShotBullet : MonoBehaviour
     void Update()
     {
         float distance = Vector2.Distance(transform.position, Player.transform.position);
-        if (distance < 40)
+        if (distance <40)
         {
             timer += Time.deltaTime;
+            Debug.Log("enemy shoot");
             if (timer > 2)
             {
                 timer = 0;
