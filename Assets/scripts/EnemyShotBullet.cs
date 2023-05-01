@@ -13,24 +13,36 @@ public class EnemyShotBullet : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-
+        
+        //InvokeRepeating("shot", 0,2f);
     }
 
     // Update is called once per frame
     void Update()
     {
-        float distance = Vector2.Distance(transform.position, Player.transform.position);
-        if (distance <40)
+      
+
+    }
+    void shot()
+    {
+        Debug.Log("Player is within range!");
+
+        var enemyBulletIns = Instantiate(enemybullet, firePoint.position, firePoint.rotation);
+        Destroy(enemyBulletIns, 2f);
+    }
+    private void OnTriggerStay2D(Collider2D collision)
+    {
+        if (collision.tag == "Player")
         {
+            //shot();
+            //Invoke("shot", 2f);
             timer += Time.deltaTime;
-            Debug.Log("enemy shoot");
             if (timer > 2)
             {
+                shot();
                 timer = 0;
-                var enemyBulletInstance = Instantiate(enemybullet, firePoint.position, firePoint.rotation);
-                Destroy(enemyBulletInstance, 3f);
             }
-
         }
     }
+
 }
