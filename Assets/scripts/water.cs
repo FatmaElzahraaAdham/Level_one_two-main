@@ -27,10 +27,11 @@ public class water : MonoBehaviour
 
         timer += Time.deltaTime;
 
-      if (timer > 0.015)
+      if (timer > 0.35)
         {
 
             sp.flipX = true;
+            
             timer = 0;
 
 
