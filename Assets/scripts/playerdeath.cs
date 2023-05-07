@@ -28,6 +28,8 @@ public class playerdeath : MonoBehaviour
         { Die(); }
         if (collision.gameObject.CompareTag("EnemyBullet"))
         { Die(); }
+        if (collision.gameObject.CompareTag("water"))
+        { Die(); }
 
     }
 
