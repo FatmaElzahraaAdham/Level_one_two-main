@@ -28,7 +28,7 @@ public class EnemyShotBullet : MonoBehaviour
         Debug.Log("Player is within range!");
 
         var enemyBulletIns = Instantiate(enemybullet, firePoint.position, firePoint.rotation);
-        Destroy(enemyBulletIns, 2f);
+        Destroy(enemyBulletIns, 4f);
     }
     private void OnTriggerStay2D(Collider2D collision)
     {
