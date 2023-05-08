@@ -371,7 +371,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -1
   m_Sprite: {fileID: 21300000, guid: 69aa4fee40a36234b944884c19d27c22, type: 3}
   m_Color: {r: 0.6037736, g: 0.2633542, b: 0, a: 1}
   m_FlipX: 0
@@ -951,7 +951,7 @@ MonoBehaviour:
   m_Follow: {fileID: 7741322426225652397}
   m_Lens:
     FieldOfView: 60
-    OrthographicSize: 8.186742
+    OrthographicSize: 12.18674
     NearClipPlane: 0.3
     FarClipPlane: 1000
     Dutch: 0
@@ -975,7 +975,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 671069104}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -8.259987, y: -9.43, z: -10}
+  m_LocalPosition: {x: -1.1699944, y: -5.71, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1030,8 +1030,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 801050752}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -19.175299, y: 7.763193, z: 10.790701}
-  m_LocalScale: {x: 3.3978, y: 8.495859, z: 3.3978}
+  m_LocalPosition: {x: -19.175299, y: 9.0085, z: 10.790701}
+  m_LocalScale: {x: 3.3978, y: 10.0523815, z: 3.3978}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 423736097}
@@ -2412,8 +2412,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1289783962}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -20.03, y: 11.17, z: 10.790701}
-  m_LocalScale: {x: 3.6278129, y: 6.057531, z: 2.242548}
+  m_LocalPosition: {x: -20.03, y: 14.4261, z: 10.790701}
+  m_LocalScale: {x: 3.6278129, y: 10.127586, z: 2.242548}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 996984540}
@@ -5381,7 +5381,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6ad980451443d70438faac0bc6c235a0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_TrackedObjectOffset: {x: 17.510014, y: 1.9299994, z: 0}
+  m_TrackedObjectOffset: {x: 24.600006, y: 5.6499996, z: 0}
   m_LookaheadTime: 0
   m_LookaheadSmoothing: 0
   m_LookaheadIgnoreY: 0
@@ -5767,7 +5767,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 8.186742
+  orthographic size: 12.18674
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -5791,7 +5791,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2001586128}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -8.259987, y: -9.43, z: -10}
+  m_LocalPosition: {x: -1.1699944, y: -5.71, z: -10}
   m_LocalScale: {x: -0.18390949, y: -0.024153233, z: 0.6396852}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -5965,7 +5965,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -1
   m_Sprite: {fileID: 21300000, guid: 69aa4fee40a36234b944884c19d27c22, type: 3}
   m_Color: {r: 0.6039216, g: 0.2627451, b: 0, a: 1}
   m_FlipX: 0
@@ -6155,15 +6155,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4507867496095108814, guid: c78e89ed0a7e38b47841c3be06d84bbd, type: 3}
       propertyPath: m_LocalScale.y
-      value: 3.2843025
+      value: 4.0690126
       objectReference: {fileID: 0}
     - target: {fileID: 4507867496095108814, guid: c78e89ed0a7e38b47841c3be06d84bbd, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 49.1405
+      value: 49.52
       objectReference: {fileID: 0}
     - target: {fileID: 4507867496095108814, guid: c78e89ed0a7e38b47841c3be06d84bbd, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.7885
+      value: -0.2849
       objectReference: {fileID: 0}
     - target: {fileID: 4507867496095108814, guid: c78e89ed0a7e38b47841c3be06d84bbd, type: 3}
       propertyPath: m_LocalPosition.z
