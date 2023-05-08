@@ -17,7 +17,7 @@ public class PlayerShot : MonoBehaviour
     {
         if (Input.GetMouseButtonDown(1)) {
             var playerBulletInstance= Instantiate(playerbullet, firePoint.transform.position, firePoint.transform.rotation);
-            Destroy(playerBulletInstance, 2f);
+            Destroy(playerBulletInstance, 0.5f);
         }
     }
 }
